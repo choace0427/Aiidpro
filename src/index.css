@@ -1,0 +1,21 @@
+.indicator {
+  width: rem(12px);
+  height: rem(4px);
+  transition: width 250ms ease;
+
+  &[data-active] {
+    width: rem(40px);
+  }
+}
+
+.mantine-Carousel-container {
+  gap: 20px;
+}
+
+.mantine-BarChart-root {
+  height: 300px;
+}
+
+.mantine-DonutChart-root {
+  min-height: 300px;
+}
